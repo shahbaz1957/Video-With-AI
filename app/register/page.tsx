@@ -23,7 +23,7 @@ function RegisterPage() {
     }
 
     if (!email || !password) {
-      setError("Email and password are required");
+      setError("Email and password are required!!");
       return;
     }
 
